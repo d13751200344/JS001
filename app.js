@@ -1,5 +1,7 @@
-let try1 = require("./try1");
+let myName = "Daniel";
 
-let myName = "Dan Wu";
+let try1 = require("./Greeting");
+let try2 = require("./Greeting");
 
 try1.morning(myName);
+try2.night(myName);
